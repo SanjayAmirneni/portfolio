@@ -1,0 +1,16 @@
+.resume__pdf {
+  margin: 10px;
+}
+.pdf {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 450) {
+  .resume__pdf {
+    height: 150px;
+    width: 150px;
+  }
+}

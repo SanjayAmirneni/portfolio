@@ -1,0 +1,57 @@
+.about__container {
+  background-color: #323a47;
+  position: relative;
+  z-index: 1;
+  /* width: 100vw; */
+}
+
+
+.aboutme__text{
+  color: white;
+  width: 60%;
+  margin-left:20%;
+  font-style: italic;
+  font-family: "Garamond", serif;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+
+.about__header {
+  font-size: 45px;
+  text-align: center;
+  margin: 5px 0;
+  color: white;
+  padding: 20px;
+}
+
+.about__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  /* margin: 10px; */
+  justify-content: space-evenly;
+}
+
+/* .about__section {
+  display: flex;
+  flex-direction: column;
+} */
+
+@media screen and (max-width: 450px) {
+  .about__body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .aboutme__text{
+    color: white;
+    width: 95%;
+    margin-left:2.5%;
+    font-style: italic;
+    font-family: "Garamond", serif;
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
+}

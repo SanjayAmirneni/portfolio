@@ -1,0 +1,43 @@
+.btn__color {
+  background-color: #323a47;
+}
+
+.skill__container {
+  height: 150px;
+}
+
+.skill_btns {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-evenly;
+  margin:0 2.5%;
+}
+
+@media screen and (max-width: 900px) {
+  .skill_btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .skill__container {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skill_btns {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+
+  .skills_text{
+    color:white;
+  }
+}

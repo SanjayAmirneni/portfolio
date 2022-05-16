@@ -1,0 +1,13 @@
+.resume__container {
+  background-color: #323a47;
+  margin: 5px 0;
+}
+
+
+
+.resume__btn {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

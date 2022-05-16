@@ -1,0 +1,36 @@
+.experience__container {
+  background-color: white;
+}
+
+.experience__cards {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.experience__card {
+  width: 70%;
+
+  margin-left: 15%;
+}
+
+.font {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.exp__card {
+  background-color: #323a47;
+}
+
+@media screen and (max-width: 450px) {
+
+  .experience__card {
+    width: 95%;
+  
+    margin-left: 2.5%;
+  }
+
+
+}

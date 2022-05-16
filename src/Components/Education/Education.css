@@ -1,0 +1,39 @@
+.education__container {
+  /* */
+  background-color: white;
+  width: 100vw;
+}
+
+.education__cards {
+  display: grid;
+  /* flex-direction: column; */
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.education__card {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.font {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.edu__card {
+  background-color: #323a47;
+  height: 350px;
+}
+
+@media screen and (max-width: 800px) {
+  .education__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .edu__card {
+    height: 300px;
+  }
+}

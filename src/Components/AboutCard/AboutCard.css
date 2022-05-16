@@ -1,0 +1,17 @@
+.aboutcard__container {
+  background-color: white;
+}
+
+.aboutcard__body {
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutcard__img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+  margin: 7px 0;
+}
