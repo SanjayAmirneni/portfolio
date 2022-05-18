@@ -8,17 +8,16 @@ import About from './Components/About/About';
 import Education from './Components/Education/Education';
 import Experience from './Components/Experience/Experience';
 import Resume from './Components/Resume/Resume';
-import Ttest from './Components/Ttest';
+import Contact from './Components/ContactMe/Contact';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Ttest /> */}
       <Banner />
       <About />
       <Resume />
-
+      <Contact />
     </div>
   );
 }

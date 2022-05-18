@@ -1,5 +1,6 @@
 .about__container {
-  background-color: #323a47;
+  /* background-color: #323a47; */
+  background-image: url('../../bg2.jpg');
   position: relative;
   z-index: 1;
   /* width: 100vw; */
@@ -38,7 +39,7 @@
   flex-direction: column;
 } */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .about__body {
     display: grid;
     grid-template-columns: 1fr;
@@ -55,3 +56,5 @@
     margin-top: 30px;
   }
 }
+
+

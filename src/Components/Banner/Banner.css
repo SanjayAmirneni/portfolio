@@ -9,7 +9,7 @@
 .banner__container {
   display: flex;
   flex-direction: column;
-  background-color: #323a47;
+  /* background-color: #323a47; */
   color: white;
   background-image: url('../../bannerbg.jpg');
   height: 100vh;
@@ -34,7 +34,13 @@
   gap: 120px;
 }
 
-
+.icons{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
@@ -47,18 +53,31 @@
     justify-content: center;
     width: 80%;
     padding: 5px;
-    margin: 15% 10%;
-    gap: 25px;
+    margin: 7% 10%;
+    margin-top: 25%;
+    gap: 15px;
+  }
+
+
+  .img {
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
   }
   
   .banner__container{
     gap:0px;
   }
   .size__40px {
-    font-size: 20px;
+    font-size: 16px;
   }
   .banner__container {
     height: 100vh;
+  }
+
+  .margin_top{
+    margin-top: 15%;
   }
 
   /* .banner__container {

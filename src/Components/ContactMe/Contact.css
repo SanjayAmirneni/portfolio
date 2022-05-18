@@ -1,0 +1,93 @@
+.contact__container{
+    background-image: url('../../bg2.jpg');
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px  50px;
+}
+
+.fieldset{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.form{
+    margin-left: 10px;
+}
+
+.textarea{
+    background-color: white;
+}
+
+
+
+.display_row{
+    display: flex;
+    gap:10px;
+    justify-content:start;
+}
+
+.grey{
+    color:rgb(199, 195, 195);
+}
+
+.white{
+    color: white;
+}
+
+.size{
+    font-size: 40px !important;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .contact__container{
+        background-image: url('../../bg2.jpg');
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:15px  15px;
+    }
+
+    .textarea{
+        width: 250px;
+        background-color: white;
+    }
+
+    .address{
+        margin-left: 5px;
+        padding-left:0;
+    }
+    
+}
+
+
+
+@media screen and (max-width:500px) {
+    .contact__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap:10px;
+        /* padding:15px  50px; */
+    }
+
+    .margin_0{
+        margin-top: 0;
+    }
+
+
+
+    .textarea{
+        width: 250px;
+    }
+
+    .address{
+        margin-left: 5px;
+        padding-left:0;
+    }
+    
+}

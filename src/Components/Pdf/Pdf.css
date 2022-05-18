@@ -2,15 +2,54 @@
   margin: 10px;
 }
 .pdf {
-  width: 80vw;
+  /* width: 10% !important; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-@media screen and (max-width: 450) {
-  .resume__pdf {
-    height: 150px;
-    width: 150px;
+
+.react-pdf__Page__annotations{
+  height: 0;
+}
+
+/* .react-pdf__Page__canvas{
+  width: 756 !important;
+} */
+
+@media screen and (max-width: 500px) {
+  .react-pdf__Page__canvas{
+    height: 500px !important;
+    width: 350px !important;
+    margin:0 0 !important;
+    padding:0 0 !important;
   }
+
+  .react-pdf__Page__textContent{
+    width: 350px !important;
+    margin:0 0 !important;
+    padding:0 0 !important;
+  }
+
+
+  .react-pdf__Page__textContent{
+
+    left: 0 !important;
+
+    height: 500px !important; 
+
+
+  }
+
+
+  .react-pdf__Page__annotations{
+    height: 0;
+  }
+
+  
+span {
+  top: 0 !important;
+  left: 0 !important;
+}
+
 }

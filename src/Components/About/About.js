@@ -72,27 +72,27 @@ function About(){
             <div className="about__body">
                 <div onClick={()=>handleClick(<Education />,"edu")}>
             <AboutCard   value="Education" img={EducationImg}    />
-            {(comp==="edu")&&width<400&&False&&Element}
+            {(comp==="edu")&&width<500&&False&&Element}
             
             </div>
             <div onClick={()=>handleClick(<Experience />,"exp")}>
             <AboutCard value="Experience" img={Work}  />
-            {(comp==="exp")&&width<400&&False&&Element}
+            {(comp==="exp")&&width<500&&False&&Element}
             </div>
             <div onClick={()=>handleClick(<Skills  />,"skl")}>
              <AboutCard value="Skills" img={SkillsImg}/>
-             {(comp==="skl")&&width<400&&False&&Element}
+             {(comp==="skl")&&width<500&&False&&Element}
             </div >
             <div  onClick={()=>handleClick(<Projects  />,"prjt")}>          
                   <AboutCard value="Projects" img={ProjectsImg} />  
-                  {(comp==="prjt")&&width<400&&False&&Element}
+                  {(comp==="prjt")&&width<500&&False&&Element}
             </div>
 
             </div>
         </div>
 
         <div>
-             {width>400?False&&Element:""}
+             {width>500?False&&Element:""}
         </div>
         </div>
     )

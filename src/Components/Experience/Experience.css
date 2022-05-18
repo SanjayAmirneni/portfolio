@@ -21,7 +21,8 @@
 }
 
 .exp__card {
-  background-color: #323a47;
+  /* background-color: #323a47; */
+  background-image: url('../../bg2.jpg');
 }
 
 @media screen and (max-width: 450px) {

@@ -1,13 +1,44 @@
 .resume__container {
-  background-color: #323a47;
+  /* background-color: #323a47; */
+  background-image: url('../../bg2.jpg');
   margin: 5px 0;
+  /* height:150px; */
+  /* margin-bottom: 4px; */
 }
 
 
+.empty__div{
+  height: 10px;
+}
+
+.paper{
+  width: 60%;
+  margin-left: 20%;
+  /* margin-top: 2.5%; */
+  /* margin-bottom: 3%; */
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+}
 
 .resume__btn {
   margin: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: thistle; */
+}
+
+@media screen and (max-width:500px){
+
+  .paper{
+    width: 95%;
+    margin-left: 2.5%;
+    /* margin-bottom: 5px; */
+  }
+  
 }

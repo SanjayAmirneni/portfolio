@@ -1,5 +1,6 @@
 .btn__color {
-  background-color: #323a47;
+  /* background-color: #323a47; */
+  background-image: url('../../bg2.jpg');
 }
 
 .skill__container {

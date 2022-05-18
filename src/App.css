@@ -1,7 +1,8 @@
 :root {
-  margin: 0;
+  margin: 0 !important;
   padding: 0;
   box-sizing: border-box;
   background-color: #323a47;
   width: 100vw;
+  border-left: none !important;
 }
